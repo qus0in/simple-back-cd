@@ -19,4 +19,4 @@ management:
         enabled: true
 
 app:
-  message: ${APP_MESSAGE:Hello Spring Boot 4 Infra Practice!}
+  message: "${APP_MESSAGE:Hello, Zero-Downtime Blue-Green CD v2.0!}"
